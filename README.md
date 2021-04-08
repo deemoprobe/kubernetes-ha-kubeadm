@@ -36,6 +36,7 @@ Kubernetes 1.20.5 企业级高可用集群部署, 基于kubeadm.
 
 ## 部署流程
 
-[1. 高可用集群部署](docs/)  
-[2. 集群测试](docs/)  
-[3. 部署Dashboard](docs/)
+[1. 高可用集群部署](docs/1-准备环境.md)  
+[2. 高可用集群部署](docs/2-高可用集群部署.md)
+[2. 集群测试](docs/3-集群测试.md)  
+[3. 部署Dashboard](docs/4-部署dashboard.md)

@@ -1,8 +1,12 @@
-apiVersion: kubeadm.k8s.io/v1beta1
+# @Author: deemoprobe@gmail.com
+# @Date:   2021-04-06 20:53:39
+# @Last Modified by:   deemoprobe@gmail.com
+# @Last Modified time: 2021-04-07 16:43:43
+apiVersion: kubeadm.k8s.io/v1beta2
 kind: ClusterConfiguration
 kubernetesVersion: {{VERSION}}
 controlPlaneEndpoint: "{{MASTER_VIP}}:6443"
 networking:
     # This CIDR is a Calico default. Substitute or remove for your CNI provider.
     podSubnet: "{{POD_CIDR}}"
-imageRepository: registry.cn-hangzhou.aliyuncs.com/imooc
+imageRepository: registry.aliyuncs.com/google_containers
